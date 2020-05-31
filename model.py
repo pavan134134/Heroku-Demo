@@ -18,7 +18,7 @@ def convert_to_int(word):
                 'nine':9, 'ten':10, 'eleven':11, 'twelve':12, 'zero':0, 0: 0}
     return word_dict[word]
 
-X['experience'] = X['experience'].apply(lambda x : convert_to_int(x))
+# X['experience'] = X['experience'].apply(lambda x : convert_to_int(x))
 
 y = dataset.iloc[:, -1]
 
